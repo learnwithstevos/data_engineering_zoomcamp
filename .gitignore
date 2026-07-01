@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# csv
+*.csv
+
+# parquet
+*.parquet
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Vars file if it contains real values
+terraform.tfvars
+
+# AWS/environment secrets
+.env
+*.pem
+credentials
